@@ -1,0 +1,84 @@
+#showname{
+    
+    font-size:50px ;
+   
+}
+#cssbu{
+	margin-left: 20px;
+	margin-top: 100px;
+}
+
+#a1{
+    
+    font-size:30px ;
+    color: white;
+}
+li{
+	margin-left: 50px;
+}
+#submit{
+    height:50px ;
+    width:100px ;
+    background-color: rgb(250, 100, 46);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:20px ;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-color: black;
+    color:orangered;
+}
+#answer{
+    height: 40px;
+    width:150px ;
+}
+
+#name{
+    background: transparent;
+    border:aqua solid;
+    height: 30px;
+}
+button{ 	
+    height: 50px;
+    width:90px ;
+    background-color:silver ;
+    font-size:15px ;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#container{
+    border:SOlid brown 3px ;
+    background-color: black;
+    width: 500px;
+     height: 430px; 
+     float: left;
+}
+#a2{
+    color: white;
+}
+#submit:hover{
+    animation: shake 0.2s 2;;
+}
+#anim2{
+    height:300px;
+        width:500px;
+        margin-bottom: 200px;
+}
+@keyframes shake {
+    25%{
+        translate:6px 0;
+    }
+    50%{
+        translate: -6px 0;
+    }
+    75%{
+        translate:6px 0;
+    }
+}
+

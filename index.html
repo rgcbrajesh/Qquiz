@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta http-equiv="refresh" content="10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Login</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="media.css">
+    <style>
+   
+  #anim{
+    height: 300px;
+    width: 300px;
+    margin-right:200px ;
+    
+    margin-top: 100px;
+  }
+  #logindiv{
+    height:60vh;
+    width:60vh;
+    /* border: solid black 3px; */
+    margin-left:200px ;
+  
+    margin-top: 10vh;
+}
+#submit1{
+    height:50px ;
+    width:100px ;
+    background-color: rgb(246, 67, 7);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:20px ;
+    color: white;
+    border-radius: 10px;
+}
+#submit1:hover{
+    background-color: black;
+    color:orangered;
+}
+#submit1:hover{
+    animation: shake 0.2s 2;;
+}
+@keyframes shake {
+    25%{
+        translate:6px 0;
+    }
+    50%{
+        translate: -6px 0;
+    }
+    75%{
+        translate:6px 0;
+    }
+}
+body{ background-image: linear-gradient(to right top, #eb4c13, #cf8300, #aaa900, #80c655, #4cdd9c, #4cdd9c, #4cdd9c, #4cdd9c, #80c655, #aaa900, #cf8300, #eb4c13);
+    background-repeat: no-repeat;
+   height:625px ;}
+
+
+
+    </style>
+  </head>
+  
+  <body bgcolor="">
+   
+
+    <div id="logindiv" style="float: left;">
+      <h1 style="text-align: center" id="nameenter"><b><i> PLEASE ENTER <br> YOUR NAME</i></b></h1>
+      
+        <form action="/category.html">
+          <center>
+        <input type="text" id="name" style="text-transform:uppercase;" /> <br /><br /><br />
+        <a href="/category.html" style="text-decoration: none;"><button  id="submit1" onclick="submitname()"> 
+          <b>SUBMIT</b></a></center></button>
+        </form>
+         
+    </div>
+        <div id="anim" style="float: right;">
+      <img src="/qoobee-hi.gif" height="300px"width="300px"></div>
+        
+       
+     
+    </div>
+  </body>
+</html>
+<script>
+  function submitname() {
+    var name = document.getElementById("name").value;
+    localStorage.setItem("name",name);
+    return false ;
+    
+  }
+</script>
