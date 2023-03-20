@@ -1,8 +1,8 @@
 @media screen and (max-width:400px) {
     #logindiv{
-        height:70vh ;
+        height:90vh ;
         width:50vh ;
-        margin-left: 20px;
+        margin-left: 5px;
     }
     #cssbu{
         margin-top:10px ;
