@@ -54,11 +54,7 @@ body{
 #a1{
     font-size:20px ;
 }
-#container{
-	width:275px !important;
-	height:390px !important ;
-	margin-left: 0px !important;
-}
+
 li{
 	margin-left:5px ;
 }
