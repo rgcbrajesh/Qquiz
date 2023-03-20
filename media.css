@@ -1,7 +1,7 @@
 @media screen and (max-width:400px) {
     #logindiv{
         height:400px !important;
-        width:233px !important ;
+        width:280px !important ;
       margin-left: 0px !important;
 	margin-top: 30px !important; 
 	    border:solid black 3px;
@@ -31,7 +31,7 @@ font-size: 17px;
 }
 
 body{
-	height:435px !important;
+	height:550px !important;
 	width:250px !important ;
 }
 #showname{
