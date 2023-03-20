@@ -1,9 +1,10 @@
 @media screen and (max-width:400px) {
     #logindiv{
-        height:300px !important;
+        height:400px !important;
         width:233px !important ;
       margin-left: 0px !important;
 	margin-top: 30px !important; 
+	    border:solid black 3px;
     }
     #cssbu{
         margin-top:10px ;
