@@ -26,10 +26,11 @@
 	}
     
 #container{
-   width:400px !important;
+   width:500px !important;
 	height:390px !important ;
 	margin-left: 0px !important;
     border:solid brown 3px ;
+	float:none;
 }
 	#showname1{
     font-size: 25px;
