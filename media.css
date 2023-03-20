@@ -36,12 +36,9 @@
     border:solid brown 3px ;
 	float:none;
 }
-	#showname1{
-    font-size: 25px;
-	text-align: center !important;
-    margin-left: 100px;
-   
-}
+	.showname{
+		text-align:center;
+	}
 #a2{
 font-size: 17px;
 }
