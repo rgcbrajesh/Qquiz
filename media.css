@@ -26,10 +26,16 @@
 	}
     
 #container{
-   width:338px !important;
+   width:340px !important;
 	height:390px !important ;
 	margin-left: 0px !important;
     border:solid brown 3px ;
+}
+	#showname1{
+    font-size: 25px;
+	text-align: center !important;
+    margin-left: 100px;
+   
 }
 #a2{
 font-size: 17px;
