@@ -59,6 +59,8 @@ a{
      height: 430px; 
      float: left;
 }
+body{
+background-color:aquamarine;}
 #a2{
     color: white;
 }
